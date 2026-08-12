@@ -1,6 +1,6 @@
-<img width="622" height="788" alt="2026-08-12-100322_hyprshot" src="https://github.com/user-attachments/assets/ad1edfbd-c30f-4214-a5f9-a5f8d7a6717f" />
+<img width="359" height="200" alt="2026-08-12-092411_hyprshot" src="https://github.com/user-attachments/assets/2d6cc30c-e262-44e7-bca6-7c48dd7dd3da" />
+<img width="200" height="158" alt="2026-08-12-100322_hyprshot" src="https://github.com/user-attachments/assets/13bca660-10df-45f2-bfd8-94df26a70596" />
 
-<img width="716" height="399" alt="2026-08-12-092411_hyprshot" src="https://github.com/user-attachments/assets/de4c5724-983c-4cc1-b366-5488ad058eab" />
 
 INSTRUCTIONS
 
