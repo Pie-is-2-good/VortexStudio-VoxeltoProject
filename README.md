@@ -6,8 +6,8 @@ INSTRUCTIONS
 
 HOW TO CONVERT NORMAL 3D MODEL TO VOX
 
-in order to import a normal model you have to convert it to a vox.
-Here is a good converter https://teardowngame.com/voxtool/ .
+in order to import a normal model you have to convert it to a vox.  
+Here is a good converter https://teardowngame.com/voxtool/ .  
 Here is a guide https://steamcommunity.com/sharedfiles/filedetails/?id=3200265843 .
 
 HOW TO USE THE SCRIPT
