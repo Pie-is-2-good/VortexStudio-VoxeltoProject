@@ -11,7 +11,7 @@ Here is a guide https://steamcommunity.com/sharedfiles/filedetails/?id=320026584
 
 HOW TO USE THE SCRIPT
 
-first do pip install voxypy
+first do '''pip install voxypy'''
 then just run the script with 
 python /Path/to/script
 
