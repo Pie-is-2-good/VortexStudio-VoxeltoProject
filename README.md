@@ -1,4 +1,5 @@
-<img width="930" height="926" alt="2026-08-12-100019_hyprshot" src="https://github.com/user-attachments/assets/0d4cce62-98bb-4d36-b768-857830679773" />
+<img width="622" height="788" alt="2026-08-12-100322_hyprshot" src="https://github.com/user-attachments/assets/ad1edfbd-c30f-4214-a5f9-a5f8d7a6717f" />
+
 <img width="716" height="399" alt="2026-08-12-092411_hyprshot" src="https://github.com/user-attachments/assets/de4c5724-983c-4cc1-b366-5488ad058eab" />
 
 INSTRUCTIONS
