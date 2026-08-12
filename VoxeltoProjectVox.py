@@ -2,11 +2,10 @@ import json
 import uuid
 from voxypy.models import Entity
 
-# Load the .vox file
+
 entity = Entity().from_file('/home/brigham/Downloads/cool.vox')
 
-# Get dimensions directly from the dense array shape
-# Returns a tuple: (X, Y, Z)
+
 dimensions = entity.get_dense().shape
 Colors = entity.get_dense()
 
