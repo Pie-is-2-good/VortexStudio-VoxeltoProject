@@ -15,7 +15,7 @@ Here is a guide https://steamcommunity.com/sharedfiles/filedetails/?id=320026584
 HOW TO USE THE SCRIPT
 
 first do ```pip install voxypy```
-then just run the script with 
+then run the script with 
 ```python /Path/to/script```
 
 <img width="587" height="227" alt="2026-08-12-080949_hyprshot" src="https://github.com/user-attachments/assets/feceffa4-51ea-4e98-bd8f-a937da469b8a" />
