@@ -1,16 +1,18 @@
 import json
 import uuid
 from voxypy.models import Entity
+import tkinter as tk
+from tkinter import filedialog
 
-
-entity = Entity().from_file('/home/brigham/Downloads/cool.vox')
-
+file_path = filedialog.askopenfilename(
+    title="Select a File To Convert",
+    filetypes=[("Vox files", "*.vox")]
+)
+entity = Entity().from_file(file_path)
 
 dimensions = entity.get_dense().shape
 Colors = entity.get_dense()
 
-
-print(f"Model Dimensions: {Colors}")
 
 
 
@@ -87,8 +89,14 @@ final_data = {
   "groups": []
 }
 
+output_path = filedialog.asksaveasfilename(
+        title="Save Output File",
+        defaultextension=".json",
+        filetypes=[("Output file", "*.json")],
+        initialfile="Converter_Output.josn"
+    )
 
-with open("VoxeltoProject.json", "w", encoding="utf-8") as f:
+with open(output_path, "w", encoding="utf-8") as f:
     json.dump(final_data, f, indent=2)
 
-print(f"Successfully wrote {len(parts_list)} parts to file.")   
+print(f"Successfully wrote {len(parts_list)} parts to {output_path}.")   
