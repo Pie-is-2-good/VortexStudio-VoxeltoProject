@@ -4,6 +4,7 @@ from voxypy.models import Entity
 import tkinter as tk
 from tkinter import filedialog
 
+// File choose dialog
 file_path = filedialog.askopenfilename(
     title="Select a File To Convert",
     filetypes=[("Vox files", "*.vox")]
