@@ -4,7 +4,7 @@ from voxypy.models import Entity
 import tkinter as tk
 from tkinter import filedialog
 
-// File choose dialog
+# File choose dialog
 file_path = filedialog.askopenfilename(
     title="Select a File To Convert",
     filetypes=[("Vox files", "*.vox")]
@@ -19,13 +19,13 @@ Colors = entity.get_dense()
 
 iterate = 0
 
-# idk what this does
+# Im not sure if i need to change this for every run
 project_id = "b6e482c848b8831c43ebb75e345013d6"
 
-
+# List of Parts of json use
 parts_list = []
 
-
+# Function to Make Parts
 def add_part(name, x, y, z, r, g, b, a):
     part = {
         "name": name,
@@ -47,18 +47,19 @@ def add_part(name, x, y, z, r, g, b, a):
     parts_list.append(part)
 
 xd, yd, zd = dimensions
+# Loops Through the Entity size
 for x in range(xd):
   for y in range(yd):
      for z in range(zd):
       voxel = entity.get(x, y, z)
       color_index = voxel.get()
-      if color_index != 0:
+      if color_index != 0: # if there is a voxel
         palette = entity.get_palette(padded=True)
         r, g, b, a = palette[color_index]
         add_part(f"Part{iterate}", x, z, y, r/255.0, g/255.0, b/255.0, a/255.0)
-        iterate += 1
+        iterate += 1 # This is For naming the parts
 
-
+# Data that gets Converted into josn
 final_data = {
     "project_id": project_id,
     "parts": parts_list  
@@ -90,13 +91,14 @@ final_data = {
   "groups": []
 }
 
+# Output path for file
 output_path = filedialog.asksaveasfilename(
         title="Save Output File",
         defaultextension=".json",
         filetypes=[("Output file", "*.json")],
         initialfile="Converter_Output.josn"
     )
-
+# Writing the josn
 with open(output_path, "w", encoding="utf-8") as f:
     json.dump(final_data, f, indent=2)
 
