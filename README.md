@@ -1,7 +1,8 @@
 DISCRIPTION
 
-The python script convert Vox files into a josn that looks like a 
-vortex project files so then you have a vox model in vortex studio
+The python script convert Vox files into a josn 
+
+that looks like a vortex project file so then you have a vox model in vortex studio
 
 <img width="359" height="200" alt="2026-08-12-092411_hyprshot" src="https://github.com/user-attachments/assets/2d6cc30c-e262-44e7-bca6-7c48dd7dd3da" />
 <img width="200" height="158" alt="2026-08-12-100322_hyprshot" src="https://github.com/user-attachments/assets/13bca660-10df-45f2-bfd8-94df26a70596" />
